@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "http://via.placeholder.com/640x360",
+    "title": "Lavender Bliss Soap",
+    "price": 5.99,
+    "quantity": 0,
+    "description": "Experience the soothing scent of lavender. Crafted with natural ingredients for a relaxing bath.",
+    "learnMoreUrl": "https://example.com/soap1-details"
+  },
+  {
+    "id": 2,
+    "image": "http://via.placeholder.com/640x360",
+    "title": "Citrus Burst Soap",
+    "price": 4.49,
+    "quantity": 0,
+    "description": "Energize with the invigorating scent of citrus. Packed with citrus extracts to revitalize your skin.",
+    "learnMoreUrl": "https://example.com/soap2-details"
+  },
+  {
+    "id": 3,
+    "image": "http://via.placeholder.com/640x360",
+    "title": "Oatmeal Soothe Soap",
+    "price": 6.99,
+    "quantity": 0,
+    "description": "Soothe your skin with oatmeal. Perfect for sensitive skin, gentle exfoliation, and hydration.",
+    "learnMoreUrl": "https://example.com/soap3-details"
+  },
+  {
+    "id": 4,
+    "image": "http://via.placeholder.com/640x360",
+    "title": "Eucalyptus Refresh Soap",
+    "price": 4.99,
+    "quantity": 0,
+    "description": "Feel refreshed with eucalyptus. Ideal for an awakening shower experience.",
+    "learnMoreUrl": "https://example.com/soap4-details"
+  },
+  {
+    "id": 5,
+    "image": "http://via.placeholder.com/640x360",
+    "title": "Honey Almond Luxury Soap",
+    "price": 7.99,
+    "quantity": 0,
+    "description": "Indulge in honey and almond. Leaves your skin pampered and silky smooth.",
+    "learnMoreUrl": "https://example.com/soap5-details"
+  },
+  {
+    "id": 6,
+    "image": "http://via.placeholder.com/640x360",
+    "title": "Tea Tree Clarify Soap",
+    "price": 5.49,
+    "quantity": 0,
+    "description": "Achieve clear skin with tea tree oil. Helps combat acne and blemishes.",
+    "learnMoreUrl": "https://example.com/soap6-details"
+  }
+]
