@@ -19,7 +19,7 @@ const Edit = ({ edit, setNewTitle, setFontSize, fontSize }) => {
           min={10}
           max="40"
           value={fontSize}
-          className="range range-primary mt-2"
+          className="range range-secondary mt-2"
           onChange={(e) => setFontSize(e.target.value)}
         />
       </div>

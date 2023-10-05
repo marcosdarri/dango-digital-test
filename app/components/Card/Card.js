@@ -7,7 +7,12 @@ import AddToCart from "./AddToCart/AddToCart";
 import LearnMore from "./LearnMore/LearnMore";
 import CardTitle from "./CardTitle/CardTitle";
 
-const Card = ({ product, sumQuantityWithReduce, notify }) => {
+const Card = ({
+  product,
+  sumQuantityWithReduce,
+  notifySuccess,
+  notifyFailure,
+}) => {
   const [newTitle, setNewTitle] = useState("");
   const [fontSize, setFontSize] = useState(20);
   const [edit, setEdit] = useState(false);
@@ -18,7 +23,7 @@ const Card = ({ product, sumQuantityWithReduce, notify }) => {
     sumQuantityWithReduce();
   };
   return (
-    <div className="relative max-w-300px shadow-xl rounded-xl">
+    <div className="relative max-w-300px shadow-xl rounded-xl border border-black">
       <ToggleButton edit={edit} setEdit={setEdit} />
       <Image
         width="300"
@@ -56,7 +61,11 @@ const Card = ({ product, sumQuantityWithReduce, notify }) => {
           fontSize={fontSize}
         />
       </div>
-      <AddToCart notify={notify} />
+      <AddToCart
+        notifySuccess={notifySuccess}
+        notifyFailure={notifyFailure}
+        product={product}
+      />
       <LearnMore learnMoreUrl={product.learnMoreUrl} />
     </div>
   );

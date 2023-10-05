@@ -12,7 +12,7 @@ import "react-toastify/dist/ReactToastify.css";
 export default function Home() {
   const [totalSum, setTotalSum] = useState(0);
 
-  const notify = () =>
+  const notifySuccess = () =>
     toast.success("Producto agregado exitosamente!", {
       position: "top-right",
       autoClose: 5000,
@@ -24,6 +24,18 @@ export default function Home() {
       theme: "colored",
     });
 
+    const notifyFailure = () =>
+    toast.error("Elija una cantidad antes de agregar un producto!", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      });
+
   const sumQuantityWithReduce = () => {
     const sum = products.reduce(
       (totalQuantity, product) => totalQuantity + parseInt(product.quantity),
@@ -33,7 +45,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-12">
       <PageTitle totalSum={totalSum}/>
       <Grid>
         {products.map((product) => (
@@ -41,10 +53,11 @@ export default function Home() {
             key={product.id}
             product={product}
             sumQuantityWithReduce={sumQuantityWithReduce}
-            notify={notify}
+            notifySuccess={notifySuccess}
+            notifyFailure={notifyFailure}
           />
         ))}
-        <ToastContainer />
+        <ToastContainer/>
       </Grid>
     </main>
   );
