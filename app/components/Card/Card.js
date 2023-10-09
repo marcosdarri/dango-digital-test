@@ -26,18 +26,13 @@ const Card = ({
     <div className="relative max-w-300px shadow-xl rounded-xl border border-black">
       <ToggleButton edit={edit} setEdit={setEdit} />
       <Image
-        width="300"
-        height="200"
+        className="w-full h-auto rounded-lg mx-auto p-4"
         src={product.image}
         alt={product.title}
-        style={{
-          width: "100%",
-          display: "block",
-          objectFit: "cover",
-          height: "200px",
-          borderTopLeftRadius: "12px",
-          borderTopRightRadius: "12px",
-        }}
+        width={650}
+        height={366}
+        sizes="(min-width: 1040px) calc(25vw - 70px), (min-width: 780px) calc(33.33vw - 77px), (min-width: 640px) calc(50vw - 90px), calc(100vw - 130px)"
+        priority={true}
       />
       <div className="px-6 py-4">
         <CardTitle fontSize={fontSize} product={product} newTitle={newTitle} />

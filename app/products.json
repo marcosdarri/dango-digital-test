@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "http://via.placeholder.com/640x360",
+    "image": "https://images.unsplash.com/photo-1688198911740-77dde4d0c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     "title": "Lavender Bliss Soap",
     "price": 5.99,
     "quantity": 0,
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "http://via.placeholder.com/640x360",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     "title": "Citrus Burst Soap",
     "price": 4.49,
     "quantity": 0,
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image": "http://via.placeholder.com/640x360",
+    "image": "https://images.unsplash.com/photo-1688198911740-77dde4d0c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     "title": "Oatmeal Soothe Soap",
     "price": 6.99,
     "quantity": 0,
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "image": "http://via.placeholder.com/640x360",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     "title": "Eucalyptus Refresh Soap",
     "price": 4.99,
     "quantity": 0,
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "image": "http://via.placeholder.com/640x360",
+    "image": "https://images.unsplash.com/photo-1688198911740-77dde4d0c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     "title": "Honey Almond Luxury Soap",
     "price": 7.99,
     "quantity": 0,
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "image": "http://via.placeholder.com/640x360",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     "title": "Tea Tree Clarify Soap",
     "price": 5.49,
     "quantity": 0,

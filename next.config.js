@@ -1,11 +1,15 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
     images: {
-      domains: ["via.placeholder.com"],
+      domains: ["plus.unsplash.com", "images.unsplash.com"],
       remotePatterns: [
         {
           protocol: 'https',
-          hostname: 'via.placeholder.com',
+          hostname: 'plus.unsplash.com',
+        },
+        {
+          protocol: 'https',
+          hostname: 'images.unsplash.com'
         }
       ],
     },
